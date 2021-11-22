@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <title>Trang chủ</title>
+    </head>
+
+    <body>
+
+        <div class="root">
+            <div class="page_container">
+                <div class="body_container">
+
+
+                    <div class="header">
+
+                        <div id="toggle-button" onclick="toggle()"><i className="fas fa-bars"></i></div>
+        
+                        <div class="header_left">
+                            <a href="">
+                                <img src="img/logo-mona.png" alt="">
+                            </a>
+                            
+                        </div>
+                        
+                        <div class="header_center">
+                            
+                            <ul>
+                                <li><a href="">giới thiệu</a></li>
+                                <li><a href="">đồng hồ nam</a></li>
+                                <li><a href="">đồng hồ nữ</a></li>
+                                <li><a href="">đồng hồ đôi</a></li>
+                                <li><a href="">phụ kiện</a></li>
+                                <li><a href="">tin tức</a></li>
+                                <li><a href="">liên hệ</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header_center" id="toggle_content">
+
+                            <button class="mobile_close" onclick="moblie_close()">x</button>
+                            
+                            <ul>
+                                <li><a href="">giới thiệu</a></li>
+                                <li><a href="">đồng hồ nam</a></li>
+                                <li><a href="">đồng hồ nữ</a></li>
+                                <li><a href="">đồng hồ đôi</a></li>
+                                <li><a href="">phụ kiện</a></li>
+                                <li><a href="">tin tức</a></li>
+                                <li><a href="">liên hệ</a></li>
+                                <li onclick="login()" class="mobile_login">đăng ký</li>
+                            </ul>
+                        </div>
+
+                        <div class="header_right">
+        
+                            <div class="search_item">
+        
+                                <i class="fa fa-search" aria-hidden="true">
+                                    
+                                </i>
+                                <div class="form-search">
+                                    <form action="">
+                                        <input type="text" placeholder="tìm kiếm">
+                                        <button class="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            
+                            
+                            
+        
+                            <i class="fa fa-user" aria-hidden="true" onclick="login()"></i>
+                            <a href=""><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+        
+                    <div class="section">
+        
+                        <div class="section_1">
+                
+                        </div>
+        
+                        <div class="section_2">
+
+                            <h2>đồng hồ nam</h2>
+        
+                            <div class="section_2-content">
+
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_1.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ louis erard 13900aa05.bdc102 nam pin dây da</a>
+                                    <p class="text_2"><span>20,217,000 đ</span> 18,195,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_2.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ cityzen au1080-20a nam eco-drive dây vải</a>
+                                    <p class="text_2"><span>50,600,000 đ</span> 5,040,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_3.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ tissot t063.907.11.058.00 nam tự động dây inox</a>
+                                    <p class="text_2">21,940,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_4.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ seiko sgeg99p1 nam pin dây da</a>
+                                    <p class="text_2">3,684,000 đ</p>
+                                </div>
+
+
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_5.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ orient fstaa002w0 nam pin dây da</a>
+                                    <p class="text_2"><span>3,042,000 đ</span> 2,737,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_6.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ olym pianus op99141-71agsk trắng nam tự động dây inox</a>
+                                    <p class="text_2"><span>20,217,000 đ</span> 18,195,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_7.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ casio ga-110gb-1adr nam pin dây nhựa</a>
+                                    <p class="text_2"><span>4,738,000 đ</span> 4,264,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnam_8.jpg" alt="">
+                                    <p class="text_1">đồng hồ nam</p>
+                                    <a href="">đồng hồ casio mtp-1374l-1avdf pin nam dây da</a>
+                                    <p class="text_2"><span>1,863,000 đ</span> 1,677,000 đ</p>
+                                </div>
+                                
+                                
+                            </div>
+        
+        
+                            <div class="more"><a href="" >Xem thêm...</a></div>
+        
+                        </div>
+        
+                        <div class="section_3">
+                            <div class="section_3-col">
+                                <div class="section_3-col-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <div class="section_3-col-content">
+                                    <h3>miễn phí giao hàng</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+        
+                            <div class="section_3-col">
+                                <div class="section_3-col-icon">
+                                    <i class="fa fa-gift" aria-hidden="true"></i>
+                                </div>
+                                <div class="section_3-col-content">
+                                    <h3>quà tặng đặc biệt</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+        
+                            <div class="section_3-col">
+                                <div class="section_3-col-icon">
+                                    <i class="fas fa-piggy-bank"></i>
+                                </div>
+                                <div class="section_3-col-content">
+                                    <h3>tiết kiệm khi mua ở Mona</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+        
+                            
+                        </div>
+        
+        
+                        <div class="section_2">
+                            <h2>đồng hồ nữ</h2>
+        
+                            <div class="section_2-content">
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_1.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ tissot t41.1.183.34 nữ tự động dây inox</a>
+                                    <p class="text_2">17,640,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_2.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ cityzen ex1410-88a nữ eco-drive dây inox</a>
+                                    <p class="text_2"><span>6,800,000 đ</span> 6,120,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_3.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ ogival og385-032lw-t nữ pin dây inox</a>
+                                    <p class="text_2">9,384,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_4.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ candino c4433/3 nữ pin dây inox</a>
+                                    <p class="text_2"><span>4,440,000</span> 3,996,000 đ</p>
+                                </div>
+                                
+
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_5.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ skagen 885sslb nữ pin dây da</a>
+                                    <p class="text_2">5,900,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_6.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ daniel wellington dw00500001 nữ pin dây inox</a>
+                                    <p class="text_2"><span>4,700,000 đ</span> 4,230,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_7.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ casio ga-100de-2adr nữ pin dây nhựa</a>
+                                    <p class="text_2">4,393,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_8.jpg" alt="">
+                                    <p class="text_1">đồng hồ nữ</p>
+                                    <a href="">đồng hồ casio la670wl-1bdf nữ pin dây da</a>
+                                    <p class="text_2"><span>851,000 đ</span> 766,000 đ</p>
+                                </div>
+                                
+                            </div>
+        
+        
+                            <div class="more"><a href="" >Xem thêm...</a></div>
+        
+                        </div>
+        
+        
+                        <div class="section_4">
+                        
+                            <div class="section_4-col">
+                                <img src="img/background_2.jpg" alt="">
+                                <div class="section_4-col-content">
+                                    <h2>Romance <br> in the air</h2>
+                                    <h4>wear your style <br>with verve & attitude</h4>
+                                    <a href="">details</a>
+                                </div>
+                            </div>
+                            
+                            <div class="section_4-col">
+                                <img src="img/background_3.jpg" alt="">
+                                <div class="section_4-col-content">
+                                    <h2>Analog & <br> Digital</h2>
+                                    <h4>smart watches <br>latest fation statement</h4>
+                                    <a href="">details</a>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+        
+        
+                        <div class="section_2">
+                            <h2>đồng hồ đôi</h2>
+        
+                            <div class="section_2-content _row">
+                                <div class="section_2-content_item">
+                                    <img src="img/dhdoi_1.jpg" alt="">
+                                    <p class="text_1">đồng hồ đôi</p>
+                                    <a href="">đồng hồ đôi alexandre christie ac8c26-1lk trắng - ac8c26-1mk trắng pin dây inox</a>
+                                    <p class="text_2">6,080,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhdoi_2.jpg" alt="">
+                                    <p class="text_1">đồng hồ đôi</p>
+                                    <a href="">đồng hồ đôi sunrise sg - sl 1085.1601 pin dây inox</a>
+                                    <p class="text_2"><span>4,700,000 đ</span> 4,230,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhnu_3.jpg" alt="">
+                                    <p class="text_1">đồng hồ đôi</p>
+                                    <a href="">đồng hồ đôi olympia star opa58012-07msk trắng - opa580112-07lsk trắng pin dây inox</a>
+                                    <p class="text_2"><span>7,728,000 đ</span> 6,955,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/dhdoi_4.jpg" alt="">
+                                    <p class="text_1">đồng hồ đôi</p>
+                                    <a href="">đồng hồ đôi citizen bd0030-001 -er0190-00a pin dây da</a>
+                                    <p class="text_2">5,140,000 đ</p>
+                                </div>
+                                
+                                
+                            </div>
+        
+                            <div class="more"><a href="" >Xem thêm...</a></div>
+        
+        
+                        </div>
+        
+        
+                        <div class="section_2">
+                            <h2>phụ kiện</h2>
+        
+                            <div class="section_2-content _row">
+                                <div class="section_2-content_item">
+                                    <img src="img/phukien_1.jpg" alt="">
+                                    <p class="text_1">khắc laser lên đồng hồ</p>
+                                    <a href="">dịch vụ khắc laser lên đồng hồ</a>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/phukien_2.jpg" alt="">
+                                    <p class="text_1">dịch vụ in logo lên đồng hồ</p>
+                                    <a href="">dịch vụ in logo màu lên mặt số đồng hồ</a>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/phukien_3.jpg" alt="">
+                                    <p class="text_1">hộp đồng hồ</p>
+                                    <a href="">hộp lên dây cót tự động zrc double-watch winder em03201</a>
+                                    <p class="text_2">10,500,000 đ</p>
+                                </div>
+                                <div class="section_2-content_item">
+                                    <img src="img/phukien_4.jpg" alt="">
+                                    <p class="text_1">dây da zrc</p>
+                                    <a href="">dây da zrc 654 tasman</a>
+                                    <p class="text_2"><span>710,000 đ</span> 639,000 đ</p>
+                                </div>
+                                
+                                
+                            </div>
+        
+                            <div class="more"><a href="" >Xem thêm...</a></div>
+        
+        
+                        </div>
+        
+                        <div class="section_5">
+                            <h2>thông tin hữu ích</h2>
+        
+                            <div class="section_5-content">
+                                <div class="section_5-content_item"> 
+                                    <a href="">
+                                        <div class="img-container">
+                                            <img src="img/slide1.jpg" alt="">
+                                        </div>
+                                        
+                                        <h5>Duis luctus elit nisi, et cursus magna pellentesque non.</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, massa non viverra consequat, tellus ligula scelerisque nisi, at viverra erat risus ut orci. Morbi odio lacus, pellentesque ut tincidunt et, hendrerit sed nisi. Aliquam ac urna nisi. Pellentesque interdum libero id lectus venenatis sagittis. Nam ac gravida turpis. Aliquam diam lacus, rhoncus id eleifend in, ornare nec nunc. Curabitur eu ligula mauris. Nam eleifend ligula purus, nec facilisis mi commodo blandit. Pellentesque feugiat eros orci, ut rhoncus dolor vulputate sed. Donec nisi arcu, pulvinar ut sem in, eleifend fermentum sapien.
+                                            Donec tempus eu ligula sed blandit. Vivamus vel enim ac quam iaculis rutrum. Sed nisi massa, ultrices sed pretium et, varius et massa. Maecenas maximus ligula ante, at vulputate arcu consectetur quis. Duis interdum, eros a malesuada elementum, enim nulla volutpat magna, sit amet tincidunt odio sapien in nibh. Vestibulum volutpat sapien ligula, sit amet tincidunt orci luctus quis. Pellentesque sed egestas nisi. In vel magna tempor, vestibulum augue quis, suscipit risus. Pellentesque pellentesque aliquet viverra. Aenean vestibulum est pellentesque tristique fringilla. Mauris consequat, nisi aliquam pretium mollis, elit magna commodo orci, in ornare leo ex in arcu. Etiam dictum diam purus, eu sodales sapien consequat ut. 
+                                        </p>
+                                    </a>
+                                    
+                                </div>
+                                <div class="section_5-content_item">
+                                    <a href="">
+                                        <div class="img-container">
+                                            <img src="img/slide2.jpg" alt="">
+                                        </div>
+                                        <h5>Mauris tristique pretium tempus. Vestibulum et accumsan magna.</h5>
+                                        <p>
+                                            Donec tempus eu ligula sed blandit. Vivamus vel enim ac quam iaculis rutrum. Sed nisi massa, ultrices sed pretium et, varius et massa. Maecenas maximus ligula ante, at vulputate arcu consectetur quis. Duis interdum, eros a malesuada elementum, enim nulla volutpat magna, sit amet tincidunt odio sapien in nibh. Vestibulum volutpat sapien ligula, sit amet tincidunt orci luctus quis. Pellentesque sed egestas nisi. In vel magna tempor, vestibulum augue quis, suscipit risus. Pellentesque pellentesque aliquet viverra. Aenean vestibulum est pellentesque tristique fringilla. Mauris consequat, nisi aliquam pretium mollis, elit magna commodo orci, in ornare leo ex in arcu. Etiam dictum diam purus, eu sodales sapien consequat ut.
+                                            In rutrum tempus purus, ut euismod dui facilisis ac. Fusce semper dignissim diam a egestas. Aenean euismod mauris quis velit ullamcorper, nec interdum leo pellentesque. Fusce quis est eu est iaculis ultricies sit amet nec lacus. Ut egestas ex id lacus efficitur, eget semper sem suscipit. Morbi posuere sit amet ante at laoreet. Phasellus ornare facilisis nibh at bibendum. Maecenas nulla magna, tincidunt ac mollis eu, fringilla eu massa. Fusce diam libero, vehicula sit amet pharetra volutpat, molestie non ante. Sed vehicula dolor tellus, id bibendum magna molestie vitae. In nec tortor elementum, lacinia mauris eu, volutpat tellus.
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="section_5-content_item">
+                                    <a href="">
+                                        <div class="img-container">
+                                            <img src="img/slide3.jpg" alt="">
+                                        </div>
+                                        <h5>Aliquam placerat nisl nec imperdiet vehicula. Phasellus tempus ligula id orci finibus feugiat.</h5>
+                                        <p>
+                                            Fusce semper dignissim diam a egestas. Aenean euismod mauris quis velit ullamcorper, nec interdum leo pellentesque. Fusce quis est eu est iaculis ultricies sit amet nec lacus. Ut egestas ex id lacus efficitur, eget semper sem suscipit. Morbi posuere sit amet ante at laoreet. Phasellus ornare facilisis nibh at bibendum. Maecenas nulla magna, tincidunt ac mollis eu, fringilla eu massa. Fusce diam libero, vehicula sit amet pharetra volutpat, molestie non ante. Sed vehicula dolor tellus, id bibendum magna molestie vitae. In nec tortor elementum, lacinia mauris eu, volutpat tellus.
+                                            Aliquam placerat nisl nec imperdiet vehicula. Phasellus tempus ligula id orci finibus feugiat. Sed luctus placerat turpis vitae feugiat. Phasellus egestas ut elit varius tincidunt. Proin facilisis facilisis odio vel molestie. Mauris arcu nisi, placerat ut ullamcorper sed, volutpat id erat. Praesent pretium accumsan ex, ut vulputate orci elementum sit amet. Ut euismod orci eu ultrices condimentum. Praesent id nisl vehicula erat luctus pellentesque nec sit amet diam. In sed blandit ligula, gravida posuere erat. In vitae dui sem. Fusce in lectus malesuada, scelerisque erat non, maximus mi. Aenean libero massa, volutpat id mauris at, iaculis porttitor velit. In feugiat eu massa nec tempus. In scelerisque auctor odio et lacinia.
+                                        </p>
+                                    </a>
+                                    
+                                    
+                                </div>
+                                
+                                
+                                
+                            </div>
+        
+                            <div class="more"><a href="" >Xem thêm...</a></div>
+        
+        
+                        </div>
+                
+                    </div>
+                
+                    <div class="footer">
+                        <div class="footer-top">
+                            <div class="footer-col_1">
+                                <img src="img/logo-mona.png" alt="">
+                            </div>
+                            <div class="footer-col_2">
+                                <h3>thông tin liên hệ</h3>
+                                <div class="info">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <p>319 c16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</p>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                    <p><a href="tel:0126 922 0162">0126 922 0162</a></p>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <div>
+                                        <p><a href="mailto:demonhunter@gmail.com">demonhunter@gmail.com</a></p>
+                                    <p><a href="mailto:mon@mona.media">mon@mona.media</a></p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="info">
+                                    <i class="fab fa-skype"></i>
+                                    <p><a href="skype:demonhunterp">demonhunterp</a></p>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="footer-col_3">
+                                <h3>follow us</h3>
+                                <p>Follow để không bỏ lỡ bất kỳ ưu đãi nào từ chúng tôi</p>
+                                <div class="footer-col_3-icon">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-pinterest"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    
+                                </div>
+                            </div>
+        
+                            <div class="footer-col_4">
+                                <h3>fanpage</h3>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhoclaptrinhthatdedang%2F&tabs=timeline&width=340&height=300px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="300px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            </div>
+        
+                        </div>
+        
+                        <div class="footer-bottom">
+                            <p>© copy-right</p>
+                        </div>
+                    </div>
+        
+        
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <form class="modal-content" action="">
+                            <div class="container">
+                                <h1>Đăng ký tài khoản</h1>
+                                <p>Bạn hãy điền các thông tin bên dưới nhé!</p>
+                                <hr>
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Nhập email" name="email" onblur="onbluremail()" id="reset_email" required>
+                                <p id="err-email"></p>
+                
+                                <label for="namsinh"><b>Năm sinh</b></label>
+                                <input type="text" placeholder="Nhập năm sinh" name="namsinh" onblur="onblurnamsinh()" id="reset_namsinh" required>
+                                <p id="err-namsinh"></p>
+                                
+                                <label for="psw"><b>Mật khẩu</b></label>
+                                <input type="password" placeholder="Nhập mật khẩu" name="psw" onblur="onlurmatkhau()" id="reset_pass" required>
+                                <p id="err-psw"></p>
+                
+                                <label for="psw-repeat"><b>Nhập lại mật khẩu</b></label>
+                                <input type="password" placeholder="Nhập lại mật khẩu" name="psw-repeat" onblur="onblurnhaplaimatkhau()" id="reset_repass" required>
+                                <p id="err-psw-repeat"></p>
+                
+                
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Lưu tài khoản
+                                </label>
+                
+                                <p class="modal-content-link">Tôi đồng ý với các <a href="#" style="color:dodgerblue">điều khoản</a>.</p>
+                
+                                <div class="clearfix">
+                                    <button type="button" class="cancelbtn" onclick="cancelModal()">Hủy</button>
+                                    <button type="button" class="signupbtn" onclick="regist_Onclick()">Đăng ký</button>
+                                </div>
+        
+                                <div id="textbox">
+                                    <p>Đăng ký thành công!</p>
+                                </div>
+        
+                            </div>
+                        </form>
+                    </div>
+        
+        
+                </div>
+            </div>
+        </div>
+  
+    
+
+        <script src="login.js"></script>
+
+    </body>
+</html>
